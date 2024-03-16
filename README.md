@@ -25,29 +25,29 @@ To streamline the process of identifying all the files modified by a specific au
     ```
 4.Sort and distinct the files by
 
-### Windows (CMD):
+   ### Windows (CMD):
 
-```cmd
-type temp.txt | sort /uniq > uniquefiles.txt
-```
+   ```cmd
+   type temp.txt | sort /uniq > uniquefiles.txt
+   ```
 
-### Windows (PowerShell):
+   ### Windows (PowerShell):
 
-```powershell
-Get-Content temp.txt | Sort-Object -Unique > uniquefiles.txt
-```
+   ```powershell
+   Get-Content temp.txt | Sort-Object -Unique > uniquefiles.txt
+   ```
 
-### Linux/Mac:
+   ### Linux/Mac:
 
-```bash
-sort -u temp.txt > uniquefiles.txt
-```
+   ```bash
+   sort -u temp.txt > uniquefiles.txt
+   ```
 
-5. Remove empty lines from `uniquefiles.txt`, and exclude specific file types like "RolloutScripts.sql". Append these excluded files to the end of your migration files list.
+   5. Remove empty lines from `uniquefiles.txt`, and exclude specific file types like "RolloutScripts.sql". Append these excluded files to the end of your migration files list.
 
 6. Create and save the following script in the project directory:
 
- ### Windows (PowerShell):
+### Windows (PowerShell):
 
  ```powershell
    # Read the file names from "uniquefiles.txt"
