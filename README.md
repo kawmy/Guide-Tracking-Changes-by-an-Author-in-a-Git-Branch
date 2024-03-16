@@ -17,12 +17,12 @@ To streamline the process of identifying all the files modified by a specific au
    ```
 
 3. Generate a list of files modified by a specific author using Git log, for example, author "Kamyar mofakhami":
-   `bash
+   ```bash
     git log --author="<author>" --pretty=format: --name-only > temp.txt
-    `
-   `bash
+    ```
+   ```bash
     git log --author="Kamyar mofakhami" --pretty=format: --name-only > temp.txt
-    `
+    ```
    4.Sort and distinct the files by
 
 ### Windows (CMD):
