@@ -23,7 +23,7 @@ To streamline the process of identifying all the files modified by a specific au
    ```bash
     git log --author="Kamyar mofakhami" --pretty=format: --name-only > temp.txt
     ```
-   4.Sort and distinct the files by
+4.Sort and distinct the files by
 
 ### Windows (CMD):
 
