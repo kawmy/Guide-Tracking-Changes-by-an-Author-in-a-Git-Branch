@@ -13,7 +13,7 @@ To streamline the process of identifying all the files modified by a specific au
    For example:
 
    ```bash
-   git checkout feature/SFD-Team/zd-InterFax
+   git checkout feature/Kamyar/SomeBranch
    ```
 
 3. Generate a list of files modified by a specific author using Git log, for example, author "Kamyar mofakhami":
