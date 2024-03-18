@@ -144,6 +144,6 @@ done < "uniquefiles.txt"
 
   Make sure to navigate to the project directory using `cd` before running the script.
 
-8. After execution, you'll find all modified files along with their diff files and current versions in the project directory. These files will be named according to their paths and can be opened in VS Code for reviewing changes, including author information in the diff files.
+8. After execution, you'll find all modified files along with their diff files and current versions in the project directory. These files will be named according to their paths and can be opened in a editor eg: VS Code for reviewing changes, including author information in the diff files.
 
 These generated files can be helpful for tracking changes while migrating files to the another branch, ensuring you keep track of all modifications made by specific authors during the migration process. Adjust the `<branch_name>` and `<author_name>` placeholders as needed for your specific use case.
